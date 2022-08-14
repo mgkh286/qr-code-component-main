@@ -1,0 +1,68 @@
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+/* general styling  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body styling */
+body {
+  /* font-size: 15px; */
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+/* card styling  */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+}
+
+/* img styling */
+.card img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+/* Pargraph  */
+h2 {
+  /* font-size: 30px; */
+  font-family: 'Outfit', sans-serif;
+  margin-top: 30px;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(220, 15%, 55%);
+  margin: 20px;
+}
+
+/* Attribution  */
+
+.attribution {
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
