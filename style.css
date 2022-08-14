@@ -18,11 +18,10 @@ body {
 
 /* container styling */
 .container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 65px; */
-  padding: 40px;
 }
 
 /* card styling  */
@@ -54,10 +53,11 @@ p {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
   color: hsl(220, 15%, 55%);
-  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  padding: 10px 0;
 }
 
-/* Attribution  */
+/* Attribution 
 
 .attribution {
   font-size: 20px;
@@ -65,4 +65,4 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
